@@ -1,0 +1,126 @@
+
+body{
+
+    height: 100%;
+    line-height: 1;
+    font-size: 15px;
+    background-color:  #E5E5E5;
+    font-family: 'Domine', serif;
+}
+
+.header{
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.header-wrapper{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.logo{
+    display: block;
+    width: 101px;
+    height: 27px;
+    margin-left:0;
+    margin-top: 0;
+    font-family: 'Domine';
+
+font-weight: 700;
+font-size: 24px;
+line-height: 27px;
+}
+
+.main-menu{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 80px;
+}
+
+.container{
+    margin-right: 10px;
+    display: list-item;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 22px;
+color: #535353;
+
+}
+
+.come{
+    width: 75px;
+height: 25px;
+font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 22px;
+letter-spacing: 0.05em;
+
+color: #535353;
+}
+
+.reserv{
+    width: 75px;
+height: 22px;
+font-family: 'Domine';
+font-style: normal;
+font-weight: 50;
+font-size: 19px;
+line-height: 50px;
+text-align: center;
+color: #535353;
+width: 146px;
+height: 51px;
+top: 27px;
+
+background: #FFFFFF;
+border-radius: 25.5px;
+}
+
+p{
+width: 660px;
+height: 100px;
+margin-left: 20px;
+font-family: 'Domine';
+font-style: normal;
+font-weight: 200;
+font-size: 45px;
+line-height: 40px;
+color: #111111;
+}
+
+button{
+    position: absolute;
+width: 237px;
+height: 75px;
+left: 253px;
+top: 689px;
+
+background: #EC7F67;
+}
+
+
+button{
+    width: 180px;
+    height: 45px;
+    left: 20px;
+    top: 450px; 
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
