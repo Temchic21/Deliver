@@ -85,9 +85,7 @@ border-radius: 25.5px;
 }
 
 p{
-width: 380px;
-height: 120px;
-margin-left: 20px;
+    margin-left: 20px;
 font-family: 'Domine';
 font-style: normal;
 font-weight: 200;
@@ -127,5 +125,6 @@ color: #FFFFFF;
 
 img{
     position: absolute;
-    margin-left: 500px;
+    left: 520px;
+    top: 200px;
 }
