@@ -213,3 +213,29 @@ line-height: 47px;
     color: #FFFFFF;
    
 }
+
+.services{
+    width: auto;
+    height: 700px;
+    position: relative;
+    background-color: #EDEAE9;
+}
+
+.services-item{
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 300px;
+text-align: center;
+color: #111111;
+}
+
+
+.one{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: #FFFFFF;
+    display: inline-block;
+}
