@@ -127,7 +127,7 @@ color: #FFFFFF;
 
 .description{
     width: auto;
-    height: 700px;
+    height: auto;
     position: relative;
     background-color: #FFFFFF;
 
@@ -216,7 +216,7 @@ line-height: 47px;
 
 .services{
     width: auto;
-    height: 700px;
+    height: 800px;
     position: relative;
     background-color: #EDEAE9;
 }
@@ -282,4 +282,70 @@ font-weight: 100px;
 font-size: 10px;
 line-height: 15px;
 color: #535353;
+}
+
+.more_1 h1, .more_2 h1, .more_3 h1, .more_4 h1{
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #535353;
+text-align: center;
+}
+.more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.more_1{
+    width: 100px;
+    height: 25px;
+    border: 1px solid #535353;
+    padding: 2px;
+
+}
+
+.more_2{
+    width: 100px;
+    height: 25px;
+    border: 1px solid #535353;
+    padding: 2px;
+}
+
+.more_3{
+    width: 100px;
+    height: 25px;
+    border: 1px solid #535353;
+    padding: 2px;
+}
+
+.more_4{
+    width: 100px;
+    height: 25px;
+    border: 1px solid #535353;
+    padding: 2px;
+}
+
+.explore{
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    margin-top: 120px;
+    margin-left: 320px;
+    background-color: #EC7F67;
+}
+
+.explore_1{
+    margin-top: 20px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+text-align: center;
+line-height: 22px;
+color: #FFFFFF;
 }
