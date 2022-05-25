@@ -119,7 +119,7 @@ text-align: center;
 color: #FFFFFF;
 }
 
-img{
+.bike{
     position: absolute;
     left: 520px;
     top: 200px;
@@ -148,8 +148,8 @@ color: #111111;
 
 .description-image{
     position: absolute;
-    left: 20px;
-    bottom: 90px;
+   right: 500px;
+   margin-top: 200px;
    
 }
 
@@ -222,6 +222,7 @@ line-height: 47px;
 }
 
 .services-item{
+    
     font-family: 'Domine';
 font-style: normal;
 font-weight: 700;
@@ -231,11 +232,53 @@ text-align: center;
 color: #111111;
 }
 
+.circle-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
 
 .one{
+    display: flex;
+    justify-content: center;
     width: 150px;
     height: 150px;
     border-radius: 75px;
     background-color: #FFFFFF;
-    display: inline-block;
+}
+
+.second{
+    width: 75px;
+    height: 75px;
+    margin-top: 32px;
+}
+
+
+.benefits{
+    display: flex;
+    justify-content: center;
+}
+
+
+.benefits-one{
+    text-align: center;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+color: #000000;
+}
+
+.bebenefits-two{
+    margin-bottom: 40px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 20px;
+color: #535353;
+
 }
