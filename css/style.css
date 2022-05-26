@@ -378,18 +378,19 @@ color: #111111;
 }
 
 .asia{
+    display: inline-block;
     position:relative;
     top: 350px;
   left: 100px;
     width: 268px;
-    height: 151px;
+    height: 263px;
     background-color: #F5F5F4;
 }
 
 
 .asia-pacific{
     position: relative;
-    top: 10px;
+    top: 40px;
     left: 10px;
     font-family: 'Domine';
 font-style: normal;
@@ -402,7 +403,7 @@ color: #111111;
 .pacific{
     width: 265px;
     position: relative;
-    top: 10px;
+    top: 70px;
     left: 10px;
     font-family: 'Domine';
 font-style: normal;
@@ -413,7 +414,7 @@ color: #535353;
 
 .articles-info{
     position: relative;
-    top: 10px;
+    top: 100px;
     left: 10px;
     width: 70px;
     height: 20px;
@@ -429,4 +430,191 @@ color: #535353;
     font-size: 7px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.cup{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 320px;
+    bottom: 250px;
+    width: 380px;
+    height: 70px;
+}
+
+.cup-photo{
+    width: 150px;
+    height: 63px;
+}
+
+.cup_go{
+    position: relative;
+    bottom: 10px;
+    margin-left: 30px;
+}
+
+.cup_off{
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 200;
+font-size: 12px;
+color: #000000;
+}
+
+.cup_on{
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+color: #7C7C7C;
+}
+
+.laptop{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 320px;
+    bottom: 220px;
+    width: 380px;
+    height: 70px;
+
+}
+
+.laptop-photo{
+    width: 140px;
+    height: 63px;
+
+}
+
+.laptop_go{
+    position: relative;
+    bottom: 10px;
+    margin-left: 30px;
+
+}
+
+.laptop_off{
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    color: #000000;
+
+}
+
+.laptop_on{
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+color: #7C7C7C;
+
+}
+
+.mac{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 320px;
+    bottom: 190px;
+    width: 380px;
+    height: 70px;
+
+}
+
+.mac-photo{
+    width: 120px;
+    height: 63px;
+
+}
+
+.mac_go{
+    position: relative;
+    bottom: 10px;
+    margin-left: 30px;
+
+}
+
+.mac_off{
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    color: #000000;
+}
+
+.mac_on{
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+color: #7C7C7C;
+}
+
+.leyb{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 320px;
+    bottom: 160px;
+    width: 380px;
+    height: 70px;
+
+}
+
+.leyb-photo{
+    width: 120px;
+    height: 63px;
+
+}
+
+.leyb_go{
+    position: relative;
+    bottom: 10px;
+    margin-left: 30px;
+
+
+}
+
+.leyb_off{
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    color: #000000;
+}
+
+.leyb_on{
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #7C7C7C;
+}
+
+.more-article{
+    display: inline-block;
+    margin-left: 190px;
+    margin-bottom: 70px;
+    position: relative;
+    width: 220px;
+    height: 60px;
+    background-color:  #EC7F67;
+
+}
+
+.more-article-1{
+    position: relative;
+    top: 20px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
 }
