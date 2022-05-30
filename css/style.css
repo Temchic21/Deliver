@@ -353,7 +353,7 @@ color: #FFFFFF;
 .articles{
     position: relative;
     width: auto;
-    height: 1000px;
+    height: 2000px;
     background-color: #FFFFFF;
 }
 
@@ -617,4 +617,272 @@ font-size: 19px;
 line-height: 22px;
 text-align: center;
 color: #FFFFFF;
+}
+
+.client{
+    position: relative;
+    top: 500px;
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 80px;
+    text-align: center;
+    color: #111111;
+}
+
+
+.say{
+    position: relative;
+    top: 530px;
+    margin-left: 57px;
+}
+    
+
+
+
+.korea{
+    display: inline-block;
+    width: 220px;
+    height: 70px;
+    margin-right: 50px;
+    background: #EDEAE9;
+    border: 1px solid #EDEAE9;
+}
+
+
+.korea-name{
+    position: relative;
+    display: inline-block;
+    bottom: 35px;
+    left: 10px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 10px;
+color: #111111;
+
+}
+
+.korea-country{
+    position: relative;
+    display: inline-block;
+    bottom: 35px;
+    left: 75px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 10px;
+color: #535353;
+}
+
+.usa{
+    display: inline-block;
+    width: 220px;
+    height: 70px;
+    margin-right: 50px;
+    background: #EC7F67;
+    border: 1px solid #EC7F67 ;
+}
+
+
+.usa-name{
+    position: relative;
+    display: inline-block;
+    bottom: 35px;
+    left: 10px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 10px;
+color: #111111;
+}
+
+.usa-country{
+    position: relative;
+    display: inline-block;
+    bottom: 35px;
+    left: 75px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 10px;
+color: #535353; 
+}
+
+.german{
+    display: inline-block;
+    width: 220px;
+    height: 70px;
+    background: #EDEAE9;
+    border: 1px solid #EDEAE9;
+}
+
+.german-name{
+    position: relative;
+    display: inline-block;
+    bottom: 35px;
+    left: 10px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 10px;
+color: #111111;
+}
+
+.german-country{
+    position: relative;
+    display: inline-block;
+    bottom: 35px;
+    left: 75px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 10px;
+color: #535353; 
+}
+
+
+.thank{
+    position: relative;
+    margin-top: 550px;
+    text-align: center;
+    
+    
+}
+
+
+.thank-you{
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 50px;
+color: #111111;
+}
+
+.bracket-photo{
+    position: relative;
+    margin-left: 180px;
+    bottom: 20px;
+}
+
+
+
+.bracket-empty{
+    position: relative;
+    bottom: 40px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 20px;
+text-align: center;
+color: #535353;
+}
+
+.dot{
+    position: relative;
+    left: 400px;
+    bottom: 30px;
+}
+
+.comfortable{
+    position: relative;
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
+
+.customers{
+    display: inline-block;
+    border: 1px solid #EDEAE9;
+    width: 220px;
+    height: 70px;
+
+}
+
+.thousand{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+color: #111111;
+}
+
+.active{
+    position: relative;
+    left: 80px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+color: #535353;
+}
+
+.monthly{
+    display: inline-block;
+    border: 1px solid #EDEAE9;
+    width: 220px;
+    height: 70px;
+}
+
+.thousand-1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #111111;
+}
+
+
+.shipments{
+    position: relative;
+    left: 80px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+color: #535353;
+}
+
+.order{
+    display: inline-block;
+    border: 1px solid #EDEAE9;
+    width: 220px;
+    height: 70px;
+}
+
+
+.min{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #111111;
+}
+
+.book{
+    position: relative;
+    left: 80px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+color: #535353;
 }
