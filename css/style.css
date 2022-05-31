@@ -353,7 +353,7 @@ color: #FFFFFF;
 .articles{
     position: relative;
     width: auto;
-    height: 2350px;
+    height: 2550px;
     background-color: #FFFFFF;
 }
 
@@ -1063,4 +1063,39 @@ font-weight: 700;
 font-size: 15px;
 line-height: 30px;
 color: #FFFFFF;
+}
+
+
+
+
+
+.footer-1{
+    bottom: 50px;
+    position: relative;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 21px;
+color: #535353;
+}
+
+
+.footer-photo{
+    position: relative;
+    left: 400px;
+    bottom: 80px;
+}
+
+
+.footer-2{
+    position: relative;
+    bottom: 110px;
+    left: 720px;
+    font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 21px;
+color: #535353;
 }
