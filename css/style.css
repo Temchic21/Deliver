@@ -1,47 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap");
+
 body {
   height: 100%;
   line-height: 1;
-  font-size: 15px;
+  font-size: 16px;
   background-color: #e5e5e5;
   font-family: "Domine", serif;
+  margin: 0;
 }
 
-.header {
-  position: relative;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.header-wrapper {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-}
-
-.logo {
-  display: block;
-  width: 101px;
-  height: 27px;
-  margin-left: 0;
-  margin-top: 0;
-  font-family: "Domine";
-
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 27px;
-}
-
-.main-menu {
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  padding: 80px;
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
 }
 
 .container {
-  margin-right: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1140px;
+}
+
+/*
+  HEADER
+*/
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.header-logo-link {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.header-logo-link:hover {
+  color: #535353;
+}
+
+.header-menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.header-list {
+  margin-right: 20px;
   display: list-item;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
@@ -49,76 +64,106 @@ body {
   color: #535353;
 }
 
-.come {
-  width: 75px;
-  height: 25px;
-  font-family: "Domine";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 19px;
-  line-height: 22px;
-  letter-spacing: 0.05em;
-  color: #535353;
+.header-list:last-child {
+  margin-right: 0;
 }
 
-.reserv {
-  width: 75px;
-  height: 22px;
-  font-family: "Domine";
-  font-style: normal;
-  font-weight: 50;
+.header-list-link {
+  color: #535353;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.header-list-link:hover {
+  color: #ec7f67;
+}
+
+.header-registration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-registration-login {
   font-size: 19px;
-  line-height: 50px;
+  color: #535353;
+  margin-right: 25px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.header-registration-login:hover {
+  color: #ec7f67;
+}
+
+.header-registration-signup {
+  font-size: 19px;
   text-align: center;
   color: #535353;
-  width: 146px;
-  height: 51px;
-  top: 27px;
-
   background: #ffffff;
-  border-radius: 25.5px;
+  border-radius: 50px;
+  padding: 20px 40px;
+  text-decoration: none;
+  transition: all 0.2s;
 }
 
-.logistics {
-  margin-left: 20px;
-  font-family: "Domine";
-  font-style: normal;
-  font-weight: 200;
-  font-size: 45px;
-  line-height: 40px;
-  color: #111111;
-}
-
-button {
-  margin-left: 20px;
-  width: 237px;
-  height: 75px;
-  left: 253px;
-  top: 689px;
-
-  background: #ec7f67;
-}
-
-button {
-  width: 180px;
-  height: 45px;
-  left: 20px;
-  top: 450px;
-  font-family: "Domine";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 22px;
-  text-align: center;
+.header-registration-signup:hover {
+  background: #535353;
   color: #ffffff;
 }
 
-.bike {
-  position: absolute;
-  left: 520px;
-  top: 200px;
+/*
+  MAIN OFFER
+ */
+.main-offer {
+  height: calc(100vh - 120px);
+  max-height: 950px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.main-offer-logistics {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.main-offer-logistics-text {
+  font-size: 70px;
+  color: #111111;
+}
+
+.main-offer-logistics-button {
+  margin-top: 90px;
+}
+
+.main-offer-logistics-button-link {
+  background: #ec7f67;
+  font-size: 19px;
+  text-align: center;
+  color: #ffffff;
+  border: 0;
+  padding: 20px 40px;
+  text-decoration: none;
+  transition: all 0.2s;
+  border-radius: 2px;
+}
+.main-offer-logistics-button-link:hover {
+  background: #ffffff;
+  color: #ec7f67;
+}
+
+.main-offer-bike {
+  width: 45%;
+}
+.main-offer-bike-img {
+  width: 100%;
+}
+
+/*
+  GLOBAL
+ */
 .description {
   width: auto;
   height: auto;
@@ -129,7 +174,6 @@ button {
 .description-item {
   display: inline;
   position: relative;
-  font-family: "Domine";
   left: 450px;
   top: 170px;
   font-style: normal;
@@ -149,7 +193,6 @@ button {
   position: relative;
   margin-left: 450px;
   top: 200px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 100px;
   font-size: 15px;
@@ -160,7 +203,6 @@ button {
 .block_1 h1,
 .block_2 h1,
 .block_3 h1 {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
@@ -197,7 +239,6 @@ button {
 }
 
 .square {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -216,7 +257,6 @@ button {
 .services-item {
   width: auto;
   height: 200px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -254,7 +294,6 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 200px;
   font-size: 10px;
@@ -266,7 +305,6 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 100px;
   font-size: 10px;
@@ -278,7 +316,6 @@ button {
 .more_2 h1,
 .more_3 h1,
 .more_4 h1 {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -333,7 +370,6 @@ button {
 
 .explore_1 {
   margin-top: 20px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
@@ -354,7 +390,6 @@ button {
   width: auto;
   height: 100px;
   top: 150px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -383,7 +418,6 @@ button {
   position: relative;
   top: 40px;
   left: 10px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 150px;
   font-size: 18px;
@@ -396,7 +430,6 @@ button {
   position: relative;
   top: 70px;
   left: 10px;
-  font-family: "Domine";
   font-style: normal;
   font-size: 9px;
   line-height: 15px;
@@ -415,7 +448,6 @@ button {
 .articles-info-1 {
   position: relative;
   top: 6px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 7px;
@@ -445,7 +477,6 @@ button {
 }
 
 .cup_off {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 200;
   font-size: 12px;
@@ -453,7 +484,6 @@ button {
 }
 
 .cup_on {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -483,7 +513,6 @@ button {
 }
 
 .laptop_off {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 200;
   font-size: 12px;
@@ -491,7 +520,6 @@ button {
 }
 
 .laptop_on {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -521,7 +549,6 @@ button {
 }
 
 .mac_off {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 200;
   font-size: 12px;
@@ -529,7 +556,6 @@ button {
 }
 
 .mac_on {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -559,7 +585,6 @@ button {
 }
 
 .leyb_off {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 200;
   font-size: 12px;
@@ -567,7 +592,6 @@ button {
 }
 
 .leyb_on {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -588,7 +612,6 @@ button {
 .more-article-1 {
   position: relative;
   top: 20px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
@@ -600,7 +623,6 @@ button {
 .client {
   position: relative;
   top: 500px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -629,7 +651,6 @@ button {
   display: inline-block;
   bottom: 35px;
   left: 10px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -642,7 +663,6 @@ button {
   display: inline-block;
   bottom: 35px;
   left: 75px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -664,7 +684,6 @@ button {
   display: inline-block;
   bottom: 35px;
   left: 10px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -677,7 +696,6 @@ button {
   display: inline-block;
   bottom: 35px;
   left: 75px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -698,7 +716,6 @@ button {
   display: inline-block;
   bottom: 35px;
   left: 10px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -711,7 +728,6 @@ button {
   display: inline-block;
   bottom: 35px;
   left: 75px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -726,7 +742,6 @@ button {
 }
 
 .thank-you {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -743,7 +758,6 @@ button {
 .bracket-empty {
   position: relative;
   bottom: 40px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -775,7 +789,6 @@ button {
   position: relative;
   top: 20px;
   left: 20px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -785,7 +798,6 @@ button {
 .active {
   position: relative;
   left: 80px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -803,7 +815,6 @@ button {
   position: relative;
   top: 20px;
   left: 20px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -813,7 +824,6 @@ button {
 .shipments {
   position: relative;
   left: 80px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -831,7 +841,6 @@ button {
   position: relative;
   top: 20px;
   left: 20px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -841,7 +850,6 @@ button {
 .book {
   position: relative;
   left: 80px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -858,7 +866,6 @@ button {
 }
 
 .ready-1 {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -879,7 +886,6 @@ button {
   position: relative;
   top: 50px;
   left: 50px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -900,7 +906,6 @@ button {
 .account-1 {
   position: relative;
   top: 10px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -925,7 +930,6 @@ button {
 }
 
 .kingdom {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -934,7 +938,6 @@ button {
 }
 
 .united {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 9px;
@@ -950,7 +953,6 @@ button {
 }
 
 .trends {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -959,7 +961,6 @@ button {
 }
 
 .events {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 9px;
@@ -975,7 +976,6 @@ button {
 }
 
 .terms {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -984,7 +984,6 @@ button {
 }
 
 .conditions {
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 9px;
@@ -1005,7 +1004,6 @@ button {
   position: relative;
   left: 100px;
   top: 80px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -1016,7 +1014,6 @@ button {
 .footer-1 {
   bottom: 50px;
   position: relative;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -1034,7 +1031,6 @@ button {
   position: relative;
   bottom: 110px;
   left: 720px;
-  font-family: "Domine";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
