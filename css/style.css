@@ -1,1101 +1,1043 @@
-
-body{
-
-    height: 100%;
-    line-height: 1;
-    font-size: 15px;
-    background-color:  #E5E5E5;
-    font-family: 'Domine', serif;
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 15px;
+  background-color: #e5e5e5;
+  font-family: "Domine", serif;
 }
 
-.header{
-    position: relative;
-    margin-left: 20px;
-    margin-right: 20px;
+.header {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-
-.header-wrapper{
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
+.header-wrapper {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
 }
 
-.logo{
-    display: block;
-    width: 101px;
-    height: 27px;
-    margin-left:0;
-    margin-top: 0;
-    font-family: 'Domine';
+.logo {
+  display: block;
+  width: 101px;
+  height: 27px;
+  margin-left: 0;
+  margin-top: 0;
+  font-family: "Domine";
 
-font-weight: 700;
-font-size: 24px;
-line-height: 27px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
 }
 
-.main-menu{
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    padding: 80px;
+.main-menu {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding: 80px;
 }
 
-.container{
-    margin-right: 10px;
-    display: list-item;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 19px;
-line-height: 22px;
-color: #535353;
-
+.container {
+  margin-right: 10px;
+  display: list-item;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  color: #535353;
 }
 
-.come{
-    width: 75px;
-height: 25px;
-font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 19px;
-line-height: 22px;
-letter-spacing: 0.05em;
-
-color: #535353;
+.come {
+  width: 75px;
+  height: 25px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #535353;
 }
 
-.reserv{
-    width: 75px;
-height: 22px;
-font-family: 'Domine';
-font-style: normal;
-font-weight: 50;
-font-size: 19px;
-line-height: 50px;
-text-align: center;
-color: #535353;
-width: 146px;
-height: 51px;
-top: 27px;
+.reserv {
+  width: 75px;
+  height: 22px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 50;
+  font-size: 19px;
+  line-height: 50px;
+  text-align: center;
+  color: #535353;
+  width: 146px;
+  height: 51px;
+  top: 27px;
 
-background: #FFFFFF;
-border-radius: 25.5px;
+  background: #ffffff;
+  border-radius: 25.5px;
 }
 
-.logistics{
-    margin-left: 20px;
-font-family: 'Domine';
-font-style: normal;
-font-weight: 200;
-font-size: 45px;
-line-height: 40px;
-color: #111111;
+.logistics {
+  margin-left: 20px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 45px;
+  line-height: 40px;
+  color: #111111;
 }
 
-button{
-    margin-left: 20px;
-width: 237px;
-height: 75px;
-left: 253px;
-top: 689px;
+button {
+  margin-left: 20px;
+  width: 237px;
+  height: 75px;
+  left: 253px;
+  top: 689px;
 
-background: #EC7F67;
+  background: #ec7f67;
 }
 
-
-button{
-    width: 180px;
-    height: 45px;
-    left: 20px;
-    top: 450px; 
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 22px;
-text-align: center;
-color: #FFFFFF;
+button {
+  width: 180px;
+  height: 45px;
+  left: 20px;
+  top: 450px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
 }
 
-.bike{
-    position: absolute;
-    left: 520px;
-    top: 200px;
+.bike {
+  position: absolute;
+  left: 520px;
+  top: 200px;
 }
 
-.description{
-    width: auto;
-    height: auto;
-    position: relative;
-    background-color: #FFFFFF;
-
+.description {
+  width: auto;
+  height: auto;
+  position: relative;
+  background-color: #ffffff;
 }
 
-.description-item{
-    display: inline;
-    position: relative;
-font-family: 'Domine';
-left: 450px;
-top: 170px;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 80px;
-color: #111111;
+.description-item {
+  display: inline;
+  position: relative;
+  font-family: "Domine";
+  left: 450px;
+  top: 170px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 80px;
+  color: #111111;
 }
 
-.description-image{
-    position: absolute;
-   right: 500px;
-   margin-top: 200px;
-   
+.description-image {
+  position: absolute;
+  right: 500px;
+  margin-top: 200px;
 }
 
-.description-name{
-    position: relative;
-    margin-left: 450px;
-    top: 200px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 100px;
-font-size: 15px;
-line-height: 30px;
-color: #535353;
+.description-name {
+  position: relative;
+  margin-left: 450px;
+  top: 200px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 100px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #535353;
 }
 
-.block_1 h1, .block_2 h1, .block_3 h1{
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 700;
-font-size: 10px;
-line-height: 10px;
-color: #111111;
+.block_1 h1,
+.block_2 h1,
+.block_3 h1 {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 10px;
+  color: #111111;
 }
 
-.block_1{
-    border: 1px solid #EDEAE9;
-    padding: 10px;
-    display: inline-block;
-    margin-left: 450px;
-    margin-top: 250px;
+.block_1 {
+  border: 1px solid #edeae9;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 450px;
+  margin-top: 250px;
 }
 
-.block_2{
-    border: 1px solid #EDEAE9;
-    padding: 10px;
-    display: inline-block;
+.block_2 {
+  border: 1px solid #edeae9;
+  padding: 10px;
+  display: inline-block;
 }
 
-.block_3{
-    border: 1px solid #EDEAE9;
-    padding: 10px;
-    display: inline-block;
+.block_3 {
+  border: 1px solid #edeae9;
+  padding: 10px;
+  display: inline-block;
 }
 
-.block{
-    width: 150px;
-    height: 50px;
-    background-color: #535353;
-    margin-top: 80px;
-    margin-left: 450px;
+.block {
+  width: 150px;
+  height: 50px;
+  background-color: #535353;
+  margin-top: 80px;
+  margin-left: 450px;
 }
 
-
-.square{
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-text-align: center;
-line-height: 47px;
-    color: #FFFFFF;
-   
+.square {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  text-align: center;
+  line-height: 47px;
+  color: #ffffff;
 }
 
-.services{
-    width: auto;
-    height: 800px;
-    position: relative;
-    background-color: #EDEAE9;
+.services {
+  width: auto;
+  height: 800px;
+  position: relative;
+  background-color: #edeae9;
 }
 
-.services-item{
-    width: auto;
-    height: 200px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 300px;
-text-align: center;
-color: #111111;
+.services-item {
+  width: auto;
+  height: 200px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 300px;
+  text-align: center;
+  color: #111111;
 }
 
-.circle-one{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.circle-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-
-
-.one{
-    display: flex;
-    justify-content: center;
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
-    background-color: #FFFFFF;
+.one {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: #ffffff;
 }
 
-.second{
-    width: 75px;
-    height: 75px;
-    margin-top: 32px;
+.second {
+  width: 75px;
+  height: 75px;
+  margin-top: 32px;
 }
 
-.benefits{
-    margin-top: 20px;
+.benefits {
+  margin-top: 20px;
 }
 
-.benefits-one{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-        font-family: 'Domine';
-    font-style: normal;
-    font-weight: 200px;
-    font-size: 10px;
-    line-height: 25px;
-    color: #111111;
+.benefits-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 10px;
+  line-height: 25px;
+  color: #111111;
 }
 
-.benefits-two{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 100px;
-font-size: 10px;
-line-height: 15px;
-color: #535353;
+.benefits-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 100px;
+  font-size: 10px;
+  line-height: 15px;
+  color: #535353;
 }
 
-.more_1 h1, .more_2 h1, .more_3 h1, .more_4 h1{
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 18px;
-color: #535353;
-text-align: center;
+.more_1 h1,
+.more_2 h1,
+.more_3 h1,
+.more_4 h1 {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #535353;
+  text-align: center;
 }
-.more{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 20px;
-    align-items: center;
-}
-
-.more_1{
-    width: 100px;
-    height: 25px;
-    border: 1px solid #535353;
-    padding: 2px;
-
+.more {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: center;
 }
 
-.more_2{
-    width: 100px;
-    height: 25px;
-    border: 1px solid #535353;
-    padding: 2px;
+.more_1 {
+  width: 100px;
+  height: 25px;
+  border: 1px solid #535353;
+  padding: 2px;
 }
 
-.more_3{
-    width: 100px;
-    height: 25px;
-    border: 1px solid #535353;
-    padding: 2px;
+.more_2 {
+  width: 100px;
+  height: 25px;
+  border: 1px solid #535353;
+  padding: 2px;
 }
 
-.more_4{
-    width: 100px;
-    height: 25px;
-    border: 1px solid #535353;
-    padding: 2px;
+.more_3 {
+  width: 100px;
+  height: 25px;
+  border: 1px solid #535353;
+  padding: 2px;
 }
 
-.explore{
-    display: inline-block;
-    width: 250px;
-    height: 60px;
-    margin-top: 120px;
-    margin-left: 320px;
-    background-color: #EC7F67;
+.more_4 {
+  width: 100px;
+  height: 25px;
+  border: 1px solid #535353;
+  padding: 2px;
 }
 
-.explore_1{
-    margin-top: 20px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 19px;
-text-align: center;
-line-height: 22px;
-color: #FFFFFF;
+.explore {
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  margin-top: 120px;
+  margin-left: 320px;
+  background-color: #ec7f67;
 }
 
-.articles{
-    position: relative;
-    width: auto;
-    height: 2550px;
-    background-color: #FFFFFF;
+.explore_1 {
+  margin-top: 20px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  line-height: 22px;
+  color: #ffffff;
 }
 
-.articles-item{
-    position: relative;
-    width: auto;
-    height: 100px;
-    top: 150px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 80px;
-text-align: center;
-color: #111111;
+.articles {
+  position: relative;
+  width: auto;
+  height: 2550px;
+  background-color: #ffffff;
 }
 
-.articles-photo{
+.articles-item {
+  position: relative;
+  width: auto;
+  height: 100px;
+  top: 150px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 80px;
+  text-align: center;
+  color: #111111;
+}
+
+.articles-photo {
   position: absolute;
   top: 350px;
   left: 100px;
 }
 
-.asia{
-    display: inline-block;
-    position:relative;
-    top: 350px;
+.asia {
+  display: inline-block;
+  position: relative;
+  top: 350px;
   left: 100px;
-    width: 268px;
-    height: 263px;
-    background-color: #F5F5F4;
-}
+  width: 268px;
+  height: 263px;
+  background-color: #f5f5f4;
+}
+
+.asia-pacific {
+  position: relative;
+  top: 40px;
+  left: 10px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 150px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #111111;
+}
+
+.pacific {
+  width: 265px;
+  position: relative;
+  top: 70px;
+  left: 10px;
+  font-family: "Domine";
+  font-style: normal;
+  font-size: 9px;
+  line-height: 15px;
+  color: #535353;
+}
+
+.articles-info {
+  position: relative;
+  top: 100px;
+  left: 10px;
+  width: 70px;
+  height: 20px;
+  background-color: #535353;
+}
+
+.articles-info-1 {
+  position: relative;
+  top: 6px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 7px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cup {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-left: 320px;
+  bottom: 250px;
+  width: 380px;
+  height: 70px;
+}
+
+.cup-photo {
+  width: 150px;
+  height: 63px;
+}
+
+.cup_go {
+  position: relative;
+  bottom: 10px;
+  margin-left: 30px;
+}
+
+.cup_off {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  color: #000000;
+}
+
+.cup_on {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7c7c7c;
+}
+
+.laptop {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-left: 320px;
+  bottom: 220px;
+  width: 380px;
+  height: 70px;
+}
+
+.laptop-photo {
+  width: 140px;
+  height: 63px;
+}
 
-
-.asia-pacific{
-    position: relative;
-    top: 40px;
-    left: 10px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 150px;
-font-size: 18px;
-line-height: 20px;
-color: #111111;
-}
-
-.pacific{
-    width: 265px;
-    position: relative;
-    top: 70px;
-    left: 10px;
-    font-family: 'Domine';
-font-style: normal;
-font-size: 9px;
-line-height: 15px;
-color: #535353;
-}
-
-.articles-info{
-    position: relative;
-    top: 100px;
-    left: 10px;
-    width: 70px;
-    height: 20px;
-    background-color: #535353;
-}
-
-.articles-info-1{
-    position: relative;
-    top: 6px;
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 7px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.cup{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    margin-left: 320px;
-    bottom: 250px;
-    width: 380px;
-    height: 70px;
-}
-
-.cup-photo{
-    width: 150px;
-    height: 63px;
-}
-
-.cup_go{
-    position: relative;
-    bottom: 10px;
-    margin-left: 30px;
-}
-
-.cup_off{
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 200;
-font-size: 12px;
-color: #000000;
-}
-
-.cup_on{
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 15px;
-color: #7C7C7C;
-}
-
-.laptop{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    margin-left: 320px;
-    bottom: 220px;
-    width: 380px;
-    height: 70px;
-
-}
-
-.laptop-photo{
-    width: 140px;
-    height: 63px;
-
-}
-
-.laptop_go{
-    position: relative;
-    bottom: 10px;
-    margin-left: 30px;
-
-}
-
-.laptop_off{
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 12px;
-    color: #000000;
-
-}
-
-.laptop_on{
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 15px;
-color: #7C7C7C;
-
-}
-
-.mac{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    margin-left: 320px;
-    bottom: 190px;
-    width: 380px;
-    height: 70px;
-
-}
-
-.mac-photo{
-    width: 120px;
-    height: 63px;
-
-}
-
-.mac_go{
-    position: relative;
-    bottom: 10px;
-    margin-left: 30px;
-
-}
-
-.mac_off{
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 12px;
-    color: #000000;
-}
-
-.mac_on{
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 15px;
-color: #7C7C7C;
-}
-
-.leyb{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    margin-left: 320px;
-    bottom: 160px;
-    width: 380px;
-    height: 70px;
-
-}
-
-.leyb-photo{
-    width: 120px;
-    height: 63px;
-
-}
-
-.leyb_go{
-    position: relative;
-    bottom: 10px;
-    margin-left: 30px;
-
-
-}
-
-.leyb_off{
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 12px;
-    color: #000000;
-}
-
-.leyb_on{
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
-    color: #7C7C7C;
-}
-
-.more-article{
-    display: inline-block;
-    margin-left: 190px;
-    margin-bottom: 70px;
-    position: relative;
-    width: 220px;
-    height: 60px;
-    background-color:  #EC7F67;
-
-}
-
-.more-article-1{
-    position: relative;
-    top: 20px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 19px;
-line-height: 22px;
-text-align: center;
-color: #FFFFFF;
-}
-
-.client{
-    position: relative;
-    top: 500px;
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 80px;
-    text-align: center;
-    color: #111111;
-}
-
-
-.say{
-    position: relative;
-    top: 530px;
-    margin-left: 57px;
-}
-    
-
-
-
-.korea{
-    display: inline-block;
-    width: 220px;
-    height: 70px;
-    margin-right: 50px;
-    background: #EDEAE9;
-    border: 1px solid #EDEAE9;
-}
-
-
-.korea-name{
-    position: relative;
-    display: inline-block;
-    bottom: 35px;
-    left: 10px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 10px;
-color: #111111;
-
-}
-
-.korea-country{
-    position: relative;
-    display: inline-block;
-    bottom: 35px;
-    left: 75px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 10px;
-color: #535353;
-}
-
-.usa{
-    display: inline-block;
-    width: 220px;
-    height: 70px;
-    margin-right: 50px;
-    background: #EC7F67;
-    border: 1px solid #EC7F67 ;
-}
-
-
-.usa-name{
-    position: relative;
-    display: inline-block;
-    bottom: 35px;
-    left: 10px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 10px;
-color: #111111;
-}
-
-.usa-country{
-    position: relative;
-    display: inline-block;
-    bottom: 35px;
-    left: 75px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 10px;
-color: #535353; 
-}
-
-.german{
-    display: inline-block;
-    width: 220px;
-    height: 70px;
-    background: #EDEAE9;
-    border: 1px solid #EDEAE9;
-}
-
-.german-name{
-    position: relative;
-    display: inline-block;
-    bottom: 35px;
-    left: 10px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 10px;
-color: #111111;
+.laptop_go {
+  position: relative;
+  bottom: 10px;
+  margin-left: 30px;
 }
 
-.german-country{
-    position: relative;
-    display: inline-block;
-    bottom: 35px;
-    left: 75px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 10px;
-color: #535353; 
+.laptop_off {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  color: #000000;
 }
 
-
-.thank{
-    position: relative;
-    margin-top: 550px;
-    text-align: center;
-    
-    
-}
-
-
-.thank-you{
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 50px;
-color: #111111;
-}
-
-.bracket-photo{
-    position: relative;
-    margin-left: 180px;
-    bottom: 20px;
-}
-
-
-
-.bracket-empty{
-    position: relative;
-    bottom: 40px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 20px;
-text-align: center;
-color: #535353;
-}
-
-.dot{
-    position: relative;
-    left: 400px;
-    bottom: 30px;
-}
-
-.comfortable{
-    position: relative;
-    margin-left: 110px;
-    margin-top: 70px;
-}
-
-
-.customers{
-    display: inline-block;
-    border: 1px solid #EDEAE9;
-    width: 220px;
-    height: 70px;
-
-}
-
-.thousand{
-    position: relative;
-    top: 20px;
-    left: 20px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-color: #111111;
-}
-
-.active{
-    position: relative;
-    left: 80px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-color: #535353;
-}
-
-.monthly{
-    display: inline-block;
-    border: 1px solid #EDEAE9;
-    width: 220px;
-    height: 70px;
-}
-
-.thousand-1{
-    position: relative;
-    top: 20px;
-    left: 20px;
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    color: #111111;
-}
-
-
-.shipments{
-    position: relative;
-    left: 80px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-color: #535353;
-}
-
-.order{
-    display: inline-block;
-    border: 1px solid #EDEAE9;
-    width: 220px;
-    height: 70px;
-}
-
-
-.min{
-    position: relative;
-    top: 20px;
-    left: 20px;
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    color: #111111;
-}
-
-.book{
-    position: relative;
-    left: 80px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-color: #535353;
-}
-
-.ready{
-    display: inline-block;
-    position: relative;
-    width: 350px;
-    height: 120px;
-    top: 180px;
-    left: 130px;
-}
-
-
-
-.ready-1{
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 45px;
-color: #111111;
-}
-
-
-.create{
-    position: relative;
-    top: 30px;
-    left: 450px;
-    width: 320px;
-    height: 200px;
-    background: #EDEAE9;
+.laptop_on {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7c7c7c;
 }
 
-.create-an{
-    position: relative;
-    top: 50px;
-    left: 50px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 25px;
-color: #535353;
+.mac {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-left: 320px;
+  bottom: 190px;
+  width: 380px;
+  height: 70px;
+}
+
+.mac-photo {
+  width: 120px;
+  height: 63px;
+}
+
+.mac_go {
+  position: relative;
+  bottom: 10px;
+  margin-left: 30px;
 }
-
-.account{
-    position: relative;
-    top: 60px;
-    left: 50px;
-    width: 180px;
-    height: 40px;
-    background: #EC7F67;
-border-radius: 45px;
-}
-
-.account-1{
-position: relative;
-top: 10px;
-font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 22px;
-text-align: center;
-color: #FFFFFF;
-}
-
-.hub{
-    display: block;
-    width: 500px;
-    height: 300px;
-    position: relative;
-    top: 150px;
-    background: #EDEAE9;
-}
-.hub-1{
-    display: inline-block;
-    position: relative;
-    left: 90px;
-    top: 50px;
-
-}
-
-
-.kingdom{
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 30px;
-    color: #111111;
-}
-
-.united{
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 9px;
-    line-height: 25px;   
-    color: #535353;
-    
-}
-
-.hub-2{
-    display: inline-block;
-    position: relative;
-    left: 120px;
-    top: 75px;
-
-}
-
-.trends{
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 30px;   
-    color: #111111;
-}
-
-
-.events{
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 9px;
-    line-height: 25px;
-    color: #535353;
-    
-}
-
-
-.hub-3{
-    display: inline-block;
-    position: relative;
-    left: 150px;
-    top: 75px;
-
-}
-
-.terms{
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 30px;    
-    color: #111111;
-}
-
-.conditions{
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 9px;
-line-height: 25px;
-color: #535353;
-
-}
-
-.haag{  
-    position: relative;
-    margin-left: 500px;
-    bottom: 220px;
-    width: 380px;
-    height: 300px;
-    background: #EC7F67;
-}
-
-
-.haag-1{
-    position: relative;
-    left: 100px;
-    top: 80px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 30px;
-color: #FFFFFF;
-}
-
-
-
-
-
-.footer-1{
-    bottom: 50px;
-    position: relative;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 21px;
-color: #535353;
-}
-
-
-.footer-photo{
-    position: relative;
-    left: 400px;
-    bottom: 80px;
+
+.mac_off {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  color: #000000;
 }
-
-
-.footer-2{
-    position: relative;
-    bottom: 110px;
-    left: 720px;
-    font-family: 'Domine';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 21px;
-color: #535353;
+
+.mac_on {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7c7c7c;
+}
+
+.leyb {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-left: 320px;
+  bottom: 160px;
+  width: 380px;
+  height: 70px;
+}
+
+.leyb-photo {
+  width: 120px;
+  height: 63px;
+}
+
+.leyb_go {
+  position: relative;
+  bottom: 10px;
+  margin-left: 30px;
+}
+
+.leyb_off {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  color: #000000;
+}
+
+.leyb_on {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7c7c7c;
+}
+
+.more-article {
+  display: inline-block;
+  margin-left: 190px;
+  margin-bottom: 70px;
+  position: relative;
+  width: 220px;
+  height: 60px;
+  background-color: #ec7f67;
+}
+
+.more-article-1 {
+  position: relative;
+  top: 20px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.client {
+  position: relative;
+  top: 500px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 80px;
+  text-align: center;
+  color: #111111;
+}
+
+.say {
+  position: relative;
+  top: 530px;
+  margin-left: 57px;
+}
+
+.korea {
+  display: inline-block;
+  width: 220px;
+  height: 70px;
+  margin-right: 50px;
+  background: #edeae9;
+  border: 1px solid #edeae9;
+}
+
+.korea-name {
+  position: relative;
+  display: inline-block;
+  bottom: 35px;
+  left: 10px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 10px;
+  color: #111111;
+}
+
+.korea-country {
+  position: relative;
+  display: inline-block;
+  bottom: 35px;
+  left: 75px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #535353;
+}
+
+.usa {
+  display: inline-block;
+  width: 220px;
+  height: 70px;
+  margin-right: 50px;
+  background: #ec7f67;
+  border: 1px solid #ec7f67;
+}
+
+.usa-name {
+  position: relative;
+  display: inline-block;
+  bottom: 35px;
+  left: 10px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 10px;
+  color: #111111;
+}
+
+.usa-country {
+  position: relative;
+  display: inline-block;
+  bottom: 35px;
+  left: 75px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #535353;
+}
+
+.german {
+  display: inline-block;
+  width: 220px;
+  height: 70px;
+  background: #edeae9;
+  border: 1px solid #edeae9;
+}
+
+.german-name {
+  position: relative;
+  display: inline-block;
+  bottom: 35px;
+  left: 10px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 10px;
+  color: #111111;
+}
+
+.german-country {
+  position: relative;
+  display: inline-block;
+  bottom: 35px;
+  left: 75px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #535353;
+}
+
+.thank {
+  position: relative;
+  margin-top: 550px;
+  text-align: center;
+}
+
+.thank-you {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 50px;
+  color: #111111;
+}
+
+.bracket-photo {
+  position: relative;
+  margin-left: 180px;
+  bottom: 20px;
+}
+
+.bracket-empty {
+  position: relative;
+  bottom: 40px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+  text-align: center;
+  color: #535353;
+}
+
+.dot {
+  position: relative;
+  left: 400px;
+  bottom: 30px;
+}
+
+.comfortable {
+  position: relative;
+  margin-left: 110px;
+  margin-top: 70px;
+}
+
+.customers {
+  display: inline-block;
+  border: 1px solid #edeae9;
+  width: 220px;
+  height: 70px;
+}
+
+.thousand {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #111111;
+}
+
+.active {
+  position: relative;
+  left: 80px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #535353;
+}
+
+.monthly {
+  display: inline-block;
+  border: 1px solid #edeae9;
+  width: 220px;
+  height: 70px;
+}
+
+.thousand-1 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #111111;
+}
+
+.shipments {
+  position: relative;
+  left: 80px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #535353;
+}
+
+.order {
+  display: inline-block;
+  border: 1px solid #edeae9;
+  width: 220px;
+  height: 70px;
+}
+
+.min {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #111111;
+}
+
+.book {
+  position: relative;
+  left: 80px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #535353;
+}
+
+.ready {
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  height: 120px;
+  top: 180px;
+  left: 130px;
+}
+
+.ready-1 {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+  color: #111111;
+}
+
+.create {
+  position: relative;
+  top: 30px;
+  left: 450px;
+  width: 320px;
+  height: 200px;
+  background: #edeae9;
+}
+
+.create-an {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #535353;
+}
+
+.account {
+  position: relative;
+  top: 60px;
+  left: 50px;
+  width: 180px;
+  height: 40px;
+  background: #ec7f67;
+  border-radius: 45px;
+}
+
+.account-1 {
+  position: relative;
+  top: 10px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hub {
+  display: block;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  top: 150px;
+  background: #edeae9;
+}
+.hub-1 {
+  display: inline-block;
+  position: relative;
+  left: 90px;
+  top: 50px;
+}
+
+.kingdom {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 30px;
+  color: #111111;
+}
+
+.united {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 25px;
+  color: #535353;
+}
+
+.hub-2 {
+  display: inline-block;
+  position: relative;
+  left: 120px;
+  top: 75px;
+}
+
+.trends {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 30px;
+  color: #111111;
+}
+
+.events {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 25px;
+  color: #535353;
+}
+
+.hub-3 {
+  display: inline-block;
+  position: relative;
+  left: 150px;
+  top: 75px;
+}
+
+.terms {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 30px;
+  color: #111111;
+}
+
+.conditions {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 25px;
+  color: #535353;
+}
+
+.haag {
+  position: relative;
+  margin-left: 500px;
+  bottom: 220px;
+  width: 380px;
+  height: 300px;
+  background: #ec7f67;
+}
+
+.haag-1 {
+  position: relative;
+  left: 100px;
+  top: 80px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.footer-1 {
+  bottom: 50px;
+  position: relative;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #535353;
+}
+
+.footer-photo {
+  position: relative;
+  left: 400px;
+  bottom: 80px;
+}
+
+.footer-2 {
+  position: relative;
+  bottom: 110px;
+  left: 720px;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #535353;
 }
