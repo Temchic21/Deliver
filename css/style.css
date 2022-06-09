@@ -213,7 +213,10 @@ ul {
   display: inline-block;
   margin-left: 500px;
   margin-top: 220px;
+  transition: all 0.2s;
 }
+
+
 
 .block_2 {
   border: 1px solid #edeae9;
@@ -228,20 +231,31 @@ ul {
 }
 
 .block {
-  width: 150px;
   height: 50px;
-  background-color: #535353;
   margin-top: 80px;
   margin-left: 500px;
 }
 
+
 .square {
-  font-weight: 400;
-  font-size: 10px;
+  background: #535353;
+  font-size: 19px;
   text-align: center;
-  line-height: 47px;
   color: #ffffff;
+  border: 0;
+  padding: 15px 30px;
+  text-decoration: none;
+  transition: all 0.2s;
+  border-radius: 2px;
 }
+
+.square:hover{
+  background:#ffffff;
+  color: #535353;
+}
+
+
+
 
 /*SERVICES*/
 
@@ -432,21 +446,28 @@ ul {
 
 .articles-info {
   position: relative;
-  top: 100px;
+  top: 90px;
   left: 10px;
-  width: 70px;
+  width: 80px;
   height: 20px;
   background-color: #535353;
 }
 
 .articles-info-1 {
-  position: relative;
-  top: 6px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 7px;
+  background: #535353;
+  font-size: 10px;
   text-align: center;
   color: #ffffff;
+  border: 0;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: all 0.2s;
+  border-radius: 1px;
+}
+.articles-info-1:hover{
+  color: #535353;
+  background: #ffffff
+
 }
 
 .cup {
@@ -600,19 +621,25 @@ ul {
   position: relative;
   width: 220px;
   height: 60px;
-  background-color: #ec7f67;
 }
 
 .more-article-1 {
-  position: relative;
-  top: 20px;
-  font-style: normal;
-  font-weight: 400;
+  background: #ec7f67;
   font-size: 19px;
-  line-height: 22px;
   text-align: center;
   color: #ffffff;
+  border: 0;
+  padding: 20px 40px;
+  text-decoration: none;
+  transition: all 0.2s;
+  border-radius: 2px;
 }
+
+.more-article-1:hover{
+color: #ec7f67;
+background: #ffffff;
+}
+
 
 .client {
   position: relative;
@@ -872,18 +899,25 @@ ul {
   left: 82px;
   width: 230px;
   height: 50px;
-  background: #ec7f67;
-  border-radius: 55px;
 }
 
 .account-1 {
-  position: relative;
-  top: 13px;
-  font-size: 13px;
-  line-height: 22px;
+  background: #ec7f67;
+  font-size: 19px;
   text-align: center;
   color: #ffffff;
+  border: 0;
+  padding: 20px 40px;
+  text-decoration: none;
+  transition: all 0.2s;
+  border-radius: 55px;
 }
+
+.account-1:hover{
+  background: #ffffff;
+  color: #ec7f67;
+}
+
 
 .hub {
   display: inline-block;
@@ -985,7 +1019,7 @@ ul {
 
 .footer {
   display: inline-block;
-  bottom: 60px;
+  bottom: 52px;
   position: relative;
   font-size: 14px;
   line-height: 21px;
@@ -997,12 +1031,12 @@ ul {
   width: 100px;
   position: relative;
   left: 270px;
-  bottom: 60px;
+  bottom: 48px;
 }
 
 .footer-2 {
   position: relative;
-  bottom: 110px;
+  bottom: 100px;
   left: 820px;
   font-size: 14px;
   color: #535353;
